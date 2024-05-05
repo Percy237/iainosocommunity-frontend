@@ -5,6 +5,7 @@ import image4 from "../assets/images/image4.png";
 import image5 from "../assets/images/image5.png";
 import image6 from "../assets/images/image6.png";
 import image7 from "../assets/images/image7.png";
+import VideoPlayer from "../components/VideoPlayer";
 
 const Home = () => {
   return (
@@ -19,12 +20,12 @@ const Home = () => {
             <div className="">See you on the 8th of May</div>
           </div>
           <div className="flex justify-center w-full items-center ">
-            <div className="w-full  max-w-[50rem] h-auto overflow-hidden rounded-md flex justify-center items-center aspect-[50/28.625] z-[1]">
-              <img src={image7} alt="noso-image" />
+            <div className="w-full  max-w-[50rem] h-[400px]  overflow-hidden rounded-md flex justify-center items-center aspect-[50/28.625] z-[1]">
+              <VideoPlayer />
             </div>
           </div>
-          <div className="md:flex lg:flex hidden  flex-col gap-8 absolute max-[78-rem] w-full z-0 left-[0%] right-[0%] bottom-[4.4rem] max-h-[30.6rem] mx-0 top-auto ">
-            <div className="flex justify-between mx-4">
+          <div className="md:flex lg:flex hidden  flex-col gap-8 absolute max-[78-rem] w-full z-0 left-[0%] right-[0%] bottom-[3rem] max-h-[30.6rem] mx-0 top-auto ">
+            <div className="flex justify-between mx-7">
               <div className="w-[12.5rem] h-auto overflow-hidden aspect-[12.5/8.75]">
                 <img src={image1} alt="image" />
               </div>
