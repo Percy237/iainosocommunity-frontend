@@ -9,7 +9,7 @@ import image7 from "../assets/images/image7.png";
 const More = () => {
   return (
     <div className=" w-[90%] mx-auto p-10">
-      <h1 className="text-3xl">Dance</h1>
+      <h1 className="text-3xl">Traditional Dance</h1>
       <div className="">
         <div className="flex justify-center gap-x-1 p-5">
           <button className="p-1 bg-orange-500 font-semibold text-black rounded-md">
