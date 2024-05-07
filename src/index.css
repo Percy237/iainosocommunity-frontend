@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Handlee&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,8 +7,22 @@ body {
   background: black;
   color: white;
   line-height: 1.5;
+  font-family: "Handlee", cursive;
 }
 
 .heading-text {
   line-height: 0.8;
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alkatra-font {
+  font-family: "Alkatra", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }

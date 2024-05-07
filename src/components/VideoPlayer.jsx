@@ -8,7 +8,6 @@ const VideoPlayer = () => {
     cloudinaryRef.current = window.cloudinary;
     cloudinaryRef.current.videoPlayer(videoRef.current, {
       cloud_name: "dyhwbwjca",
-      autoplayMode: "on-scroll",
     });
   }, []);
   return <video ref={videoRef} data-cld-public-id="noso_zfmzes" controls />;
